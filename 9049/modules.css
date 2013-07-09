@@ -96,11 +96,12 @@
 	line-height: 20px;
 }
 
-
-.emphase-txt-right, .emphase-txt, .emphase-txt span, .emphase-txt span span, .news-comment .content .button-holder .reply, .box--comments .box__title strong, .box--recommend-friends .box__title strong, .box--side-recent-active-user .box__title strong, .box--friends .box__title strong, .box--play-game__prizes td .prize-item, .box--play-game__prizes .box__title strong, .box--play-game__awards td .award-item, .box--play-game__awards .box__title strong, .box--leaderboard .box__title strong, .box--play-game__topten .box__title strong, .user-stats__latest-awards li a, .user-stats__latest-badges li a, .user-stats-detail li label, .box--current-stats .box__title strong, .box--play-game__circuitbot .box__title strong{
-	background-image: url(../../i/minisite1/playgame-sprite.png);
+/* play game sprite */
+.emphase-txt, .emphase-txt span, .emphase-txt span span, .inforblock .level-set .l, .inforblock .level-set .r, .inforblock .level-set .c, .score-table .level-set .l, .score-table .level-set .r, .score-table .level-set .c, .user-stats__latest-awards li a, .user-stats__latest-badges li a, .user-stats-detail li, .box--current-stats .box__title strong, .box--play-game__awards td .award-item, .box--play-game__prizes td .prize-item, .news-comment .content .button-holder .like, .news-comment .content .button-holder .reply, .box--comments .box__title strong, .box--recommend-friends .box__title strong, .box--side-recent-active-user .box__title strong, .box--friends .box__title strong, .box--play-game__prizes .box__title strong, .box--play-game__awards .box__title strong, .box--leaderboard .box__title strong, .box--play-game__topten .box__title strong, .box--play-game__circuitbot .box__title strong{
+	background-image: url(../../i/minisite1/play-circuit-sprite.png);
 	background-repeat: no-repeat;
 }
+
 
 .table-opt thead tr .table-align-left div {
 	text-align: left;
@@ -145,13 +146,13 @@
 .fs-10{
 	font-size: 10px;
 }
-.emphase-txt span, .l-header .logged-in .count, .sitemap-list a, .sitemap-list a:visited, .blog-preview__preview, .news-preview__preview, .box--friends__list li a, .box--stats table thead th, .box--stats table tbody td, .game-preview p, .game-preview .score, .level-played .level, .level-played p, .friend-request__content .user-type,
+.l-header .logged-in .count, .sitemap-list a, .sitemap-list a:visited, .blog-preview__preview, .news-preview__preview, .box--friends__list li a, .box--stats table thead th, .box--stats table tbody td, .game-preview p, .game-preview .score, .level-played .level, .level-played p, .friend-request__content .user-type,
 .message__content p, .notification__content p, .jcarousel-home .jcarousel-container-vertical, .inforblock div, .infor-table th, .badge-item span,
 .badge-element:hover .badge-request__info, .fs-11, .mission-item__meta, .emphase-txt, .box--blog-related .row__article .article__figure p{ 
 	font-size: 11px;
 }
 
- .box__title ul li a, .blog-preview__posted, .news-preview__meta, .news-preview__posted, .news-details__content .posted span,
+.box__title ul li a, .blog-preview__posted, .news-preview__meta, .news-preview__posted, .news-details__content .posted span,
 .post-preview__posted, .top-stories__meta, .top-stories__preview, .feeds__content .action .time, .feeds__content .badge,
 .feeds__content .self-comment, .feeds__content .edit, .post-area .buton-holder .link, .feed-comment li, .feed-comment li .textarea,
 .box--stats table tbody td a, .news-comment .content .meta, .news-comment .content p, .news-comment .content .button-holder,
@@ -387,7 +388,12 @@ font-size: 18px;
 .black-text-shadow-2{
 	text-shadow: 0 2px 2px rgba(0,0,0,0.3)
 }
-.emphase-txt span span, .inforblock .level-set .l, .inforblock .level-set .r, .inforblock .level-set .c, .score-table .level-set .l, .score-table .level-set .r, .score-table .level-set .c {
+.inforblock .level-set .l,
+.inforblock .level-set .r,
+.inforblock .level-set .c,
+.score-table .level-set .l,
+.score-table .level-set .r,
+.score-table .level-set .c {
 	background-image: url(../../i/minisite1/emphase-txt-bg.png);	
 }
 .emphase-txt{
@@ -395,47 +401,24 @@ font-size: 18px;
 	 height: 17px;
 	 padding-left: 5px;
 	 padding-right: 0;
-	 
-	background-position: 0 -245px;
+	 background-position: 0 -485px;
 	 background-repeat: no-repeat;
-	 vertical-align: top;
 }
 	.emphase-txt span{
 		display: inline-block;
 		 height: 17px;
 		 padding-left: 0;
-	 	 
-		 background-position: 100% -17px;
+	 	 padding-right: 5PX;
+		 background-position: 100% -502px;
 	 	 background-repeat: no-repeat;
-		 font-family: 'BebasRegular';
-		 color: #fffffe;
-		 font-weight: normal;
-		 vertical-align: top;
-	
-		background: #0099ff;
-		line-height: 17px;
-}
-		.emphase-txt-right{
-			vertical-align: top;
-			width: 5px;
-			display: inline-block;
-		
-			height: 17px;
-			background-position: 0 -262px;
-}
-		.box--side-recent-active-user ul li .emphase-txt-right{
-			position: absolute;
-			top: 18px;
-			right: 14px;
-			margin: 0;
-		}
+	}
 		.emphase-txt span span{
 			display: inline-block;
 			height: 17px;
 			line-height: 17px;
 			padding-left: 5px;
 			padding-right: 5px;
-			background-position: 0 -34px;
+			background-position: 0 -519px;
 			background-repeat: repeat-x;
 			font-family: 'BebasRegular';
 		}
@@ -1014,7 +997,7 @@ div .box__faq__related li {
 .box--friends--common { padding-bottom: 7px; }
 	.box--friends .box__title { text-align: left }
 	.box--friends .box__title strong {
-		background-position: 0 0;
+		background-position: -98px -392px;
 		background-repeat: no-repeat;
 		padding-left: 28px;
 	}
@@ -2011,7 +1994,6 @@ div .box__faq__related li {
 				padding-left: 22px;
 			}
 			.news-comment .content .button-holder .reply {
-				background-image: url(../../i/minisite1/reply-icon.png);
 				background-position: 0 4px;
 				border-right: 1px solid #999999;
 				padding-right: 8px;
@@ -2023,12 +2005,11 @@ div .box__faq__related li {
 				color: #279af2;
 			}
 			.news-comment .content .button-holder .like {
-				background-image: url(../../i/minisite1/like-icon-small.png);
-				background-position: 0 1px;
+				background-position: 0 -49px;
 				color: #ffffff;
 			}
 			.news-comment .content .button-holder .like:hover {
-				background-position: 0 -29px;
+				background-position: 0 -79px;
 				color: #279af2;
 			}
 /* login and recovery */
@@ -3024,11 +3005,8 @@ div .box__faq__related li {
 /* news comments */
 .box--comments .box__title { padding-left: 9px; background-color: #1b1b1b;  }
 .box--comments .box__title strong {
+	background-position: -100px -190px;
 	padding-left: 36px;
-	background-position: 0 -104px;
-	margin-top: 10px;
-	height: 20px;
-	line-height: 20px;
 }
 	.box--comments .post-area { padding: 10px 12px 6px 13px; }
 	.box--comments .post-area .textarea { width: 575px; }
@@ -9209,12 +9187,10 @@ div .help-filter {
 	width: 180px;
 }
 /*homepage leaderboard*/
-.box--leaderboard .box__title strong, 
-.box--play-game__topten .box__title strong{
-}
+
 .box--leaderboard .box__title strong{
 	padding-left: 34px;
-	background-position:  0 0;
+	background-position:  -100px -338px;
 	background-repeat: no-repeat;
 }
 .box--leaderboard .box__title a.drop-down-arrow{
@@ -9329,10 +9305,7 @@ div .help-filter {
 }
 .box--play-game__circuitbot .box__title strong{
 	padding-left: 42px;
-	background-position: 3px -72px;	
-	height: 32px;
-	margin-top: 5px;
-	line-height: 30px;
+	background-position: -97px -145px;	
 }
 .game-ad-pic{
 	height: 399px;
@@ -9454,10 +9427,7 @@ div .help-filter {
 /*Your current states*/
 .box--current-stats .box__title strong{
 	padding-left: 30px;
-	background-position: 0 0;    
-	height: 25px;  
-	margin-top: 8px;  
-	line-height: 24px;
+	background-position: -100px -443px;
 }
 .user-stats-pri {
 	padding: 11px 6px 10px 113px;
@@ -9511,34 +9481,23 @@ div .help-filter {
 	color: #d4d4d5;
 	width: 93px;
 	display: block;
+}
+.user-stats-detail .user-stats__rank{
+	background-position: -93px 7px;
 	padding-left: 32px;
 }
-.user-stats-detail .user-stats__rank  label{
-	background-position: 9px -296px;
-	margin-top: 1px;
-	line-height: 12px;
-}
 .user-stats-detail .user-stats__played-time{
-	padding-top: 3px;
-}
-.user-stats-detail .user-stats__played-time label{
-	background-position: 8px -314px;
+	background-position: -93px -48px;
+	padding-left: 32px;
 	padding-bottom: 2px;
-	padding-top: 5px;
 }
-.user-stats-detail .user-stats__last-played label{
-	background-position: 7px -337px;
-	padding-top: 1px;
+.user-stats-detail .user-stats__last-played{
+	background-position: -93px -94px;
+	padding-left: 32px;
 }
 .user-stats-detail li p{
 	line-height: 19px;
 	color: #a7a7a7;
-}
-.user-stats-detail .user-stats__played-time p{
-	padding-top: 3px;
-}
-.user-stats-detail .user-stats__last-played p{
-	margin-top: -1px;
 }
 .user-badge-and-award label{
 	display: block;
@@ -9586,43 +9545,31 @@ div .help-filter {
 .user-stats__latest-badges li a{
 	background-repeat: no-repeat;
 }
-.user-badge-and-award ul li .user-stats__badge1{
-	background-position: 7px -354px;
-	height: 20px;
-	margin-top: 4px;
+.user-stats__badge1{
+	background-position: 7px -296px;
 }
-.user-stats__latest-badges li .user-stats__badge2{
-	background-position: 7px -373px;
-	height: 20px;
-	margin-top: 4px;
+.user-stats__badge2{
+	background-position: 7px -346px;
 }
-.user-stats__latest-badges li .user-stats__badge3{
-	background-position: 9px -393px;
-	height: 22px;
-	margin-top: 4px;
+.user-stats__badge3{
+	background-position: 7px -396px;
 }
 .user-stats__latest-awards li a{
 	background-repeat: no-repeat;
 }
-.user-stats__latest-awards li .user-stats__award1{
-	background-position: 10px -416px;
-	margin-top: 6px;
-	height: 18px;
+.user-stats__award1{
+	background-position: 9px -146px;
 }
-.user-stats__latest-awards li .user-stats__award2{
-	background-position: 9px -434px;
-	margin-top: 5px;
-	height: 20px;
+.user-stats__award2{
+	background-position: 9px -196px;
 }
-.user-stats__latest-awards li .user-stats__award3{
-	background-position: 9px -454px;
-	margin-top: 5px;
-	height: 20px;
+.user-stats__award3{
+	background-position: 9px -246px;
 }
 /*recent activity users sidebar*/
 .box--side-recent-active-user .box__title strong{
 	padding-left: 29px;
-	background-position: 0 0;
+	background-position: -98px -392px;
 	background-repeat: no-repeat;
 }
 .box--side-recent-active-user ul li{
@@ -9664,12 +9611,9 @@ div .help-filter {
 	height: 46px;
 }
 .box--play-game__topten .box__title strong {
-	background-position: 0 -54px;
+	background-position:  -100px -338px;
 	background-repeat: no-repeat;
 	padding-left: 34px;
-	margin-top: 10px;
-	line-height: 20px;
-	height: 19px;
 }
 .side-tbl {
 	width: 100%;
@@ -9718,11 +9662,8 @@ div .help-filter {
 	background-color: #212121;
 }
 .box--play-game__awards .box__title strong {
+	background-position: -99px -293px;
 	padding-left: 34px;
-	background-position: 1px -126px;
-	height: 28px;
-	line-height: 28px;
-	margin-top: 6px;
 }
 .box--play-game__awards td a{
 	font-weight: bold;
@@ -9731,10 +9672,7 @@ div .help-filter {
 	color: #ebebeb;
 	padding-left: 20px;
 	display: inline-block;
-	background-position: 0 -224px;
-	margin-top: 0px;
-	height: 20px;
-	line-height: 20px;
+	background-position: 0 -116px;
 }
 
 /*Paly game sidebar prize box*/
@@ -9742,11 +9680,8 @@ div .help-filter {
 	background-color: #212121;
 }
 .box--play-game__prizes .box__title strong {
+	background-position: -99px -240px;
 	padding-left: 34px;
-	background-position: 1px -154px;
-	margin-top: 8px;
-	height: 26px;
-	line-height: 24px;
 }
 .box--play-game__prizes td a{
 	font-weight: bold;
@@ -9755,23 +9690,14 @@ div .help-filter {
 	color: #ebebeb;
 	padding-left: 20px;
 	display: inline-block;
-	background-position: 0 -206px;
-	height: 16px;
-	line-height: 16px;
+	background-position: 0 -444px;
 }
 
 /*Paly game sidebar recommended firends box*/
-.box--side-recent-active-user .box__title strong, .box--friends .box__title strong {
-	background-image:url("../../i/minisite1/box-icon-recent-user.png");
-	
-}
 .box--recommend-friends .box__title strong {
-	background-position: 2px -25px;
+	background-position: -98px -392px;
 	background-repeat: no-repeat;
 	padding-left: 34px;
-	height: 28px;
-	line-height: 24px;
-	margin-top: 8px;
 }
 .box--recommend-friends ul {
 	overflow: hidden;	
