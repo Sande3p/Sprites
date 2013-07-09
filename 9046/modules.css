@@ -48,8 +48,7 @@
 	padding: 0 13px;
 }
 /* Check box style. */
-.chkbox, .table__checkbox-column .jqTransformCheckbox{
-	background-image:url(../../i/checkbox-alt.png);
+{
 }
 .chkbox {
 	background-position: 0 0;
@@ -95,6 +94,15 @@
 	height: 20px;
 	line-height: 20px;
 }
+
+
+/* blogs sprite */
+.jqTransformCheckbox, .chkbox, .table__checkbox-column .jqTransformCheckbox, .popup--error .popup__title strong, .blog-detail__article .blog-article__tag dt, .section--error p, .button--delete .ico, .js-article-tab__completed span>a, .table__remove-link .ico, .box--blog .box__title .button--remove-selected .ico, .news-comment .content .button-holder .like, .news-comment .content .button-holder .reply, .box--recnet-comment .box__title strong, .box--blog-related .box__title strong, .button--edit .ico, .table__edit-link .ico, .box--blog-category .box__title strong, .box--comments .box__title strong, .blog-header .blog-button .button .ico, .is-button--watched .ico, .is-button--watched, .is-button--watched:hover, .pagination-number .pagination-number__next, .pagination-number .pagination-number__prev, .button--remove-selected,  attachments__container table .button--delete,  .blog-detail__article .blog-article__tag dt, .l-row--blog .blog-article__tag dt, .blog-posts__title-group .blog-posts__tag dt, .add-article__row .add-article__infor, .blog-detail__date, .blog-article__date, .blog-posts__date, .news-details__button .print-btn, .link-print, .link-edit, .blog-article__button .share-button .ico, .popup__title .close-btn, .attachments__container table .is-error-upload, .blog-header .blog-search .blog-search__icon, .search-forum .icon-forum-search, .box--blog-draft ul li a.blog-draft__remove .ico, .jqTransformSelectWrapper .jqTransformSelectOpen, .forum-more-attachment-button-holder a, .attchments__more-files, .box--blog-archives .box__title strong, .box--news-category .box__title strong, .box--blog-draft .box__title strong, .breadcrumb-sub, .box__title strong span, .box--blog .box__title>strong, .box-blog-article .box__title strong, .box-blog-filter .box__title strong, .box--blog-new .box__title strong{
+	background-image: url(../../i/minisite1/blogs-sprite.png);
+	background-repeat: no-repeat;
+}
+
+
 .table-opt thead tr .table-align-left div {
 	text-align: left;
 	padding-left: 14px;
@@ -174,81 +182,7 @@
 	font-size: 13px;
 }
 
-.button, .buttons a,
-.box__title strong, .box--leaderboard table td, .box--leaderboard table .top3 .rank, .blog-preview strong, .news-preview strong,
-.news-details__button .print-btn, .news-details__content .posted, .news-details__content .content, .post-preview strong,
-.top-stories__title, .load-more, .feeds__content, .post-area strong, .game-preview a, .level-played a, .login table td,
-.login__register, .send-message table label, .add-friend table label, .add-friend table p, .text, .textarea,
-.jqTransformSelectWrapper div span, .jqTransformSelectWrapper ul a, .header-popup__head strong, .header-popup__foot a,
-.friend-request__content .username, .message__content .username, .profile-area .edit-profile, .profile-area__content .user-type,
-.profile-area__content .textarea-holder .edit-status, .news-block__title, .popup__title strong, .home-carousel .content .info a,
-.home-carousel .content .info ul, .home-carousel .carousel ul li strong, .player-of-the-month p, .player-of-the-month ul li a,
-.register-intro p, .register-intro .feature, .box--register .other-method, .box--register table td, .box--register .validate strong,
-.box--register .validate label, .box--news-category ul li a, .user-profile, .private-profile-subpanel, .profile-message, .recovery label,
-.auto-complete, .profile-area__content .textarea-holder, .faq-block strong a, .profile-message__breadcrumb,
-.msg-load-more, .message__reply-msg-bar textarea, .firend-request__info, .badge-request__info .friend-user__search .friend-user__search-input,
-.textarea-bio, .box--rules, .faq-details, .box__faq__related li, .box--search, .contact-us-block, .user-profile .user-profile__field, .faq-block-details .faq-block__title,
-.user-profile-description, .private-profile__content-edit input, .table-opt thead tr th div, .box--faq .load-more,
-.search-leaderboard__filter-tab .tab-button, 
-.list-leaderboard strong, .leaderboard-pts,
-.achievements__my-badges .badge-info .badges-title,
-.popup__unregister-confirm .popup__content-mid,
-.popup__unregister-profile .popup__content-mid,
-.popup__remove-friend .popup__content-mid,
-.box--blog .box__title .breadcrumb-text,
-.blog-header .blog-search .search-text,
-.blog-details__filter>label,
-.blog-details__pagination>label,
-.blog-details__pagination .pagination-total>span,
-.blog-details__pagination .pagination-total label,
-.pagination-number a,
-.blog-detail__date,
-.blog-detail__article  .blog-article__tag,
-.blog-article__meta>div,
-.blog-article__button .share-button,
-.blog-article__txt>p,
-.blog-article__txt .read-more,
-.link-print,
-.link-edit,
-.blog-article__date,
-.l-row--blog .blog-article__tag,
-.l-row--blog>p,
-.l-row--blog .blog-article__bottom_button .bottom_button__link,
-.box--blog-category .box__article li a,
-.box--blog-related .row__article .row__article-title,
-.box--recnet-comment .box__article li,
-.blog-result__section .blog-result__section-title,
-.blog-result__section .blog-result__post,
-.blog-result__article p,
-.blog-result__article .blog-result__view-details,
-.advanced-search__row label,
-.blog-posts__date,
-.blog-posts__title-group  .blog-posts__tag,
-.table-wrapper table th,
-.table-wrapper table td a,
-.table-wrapper table td p,
-.table-wrapper table .table-td__articles,
-.table-wrapper table .table-td__comments,
-.table-wrapper table .table-td__last-poster p,
-.my-watches-nofound p,
-.box--blog-draft ul li a,
-.add-article__row label,
-.add-article__row .add-article__input,
-.add-article__row .add-article__CKEdit .add-article__textarea,
-.attachments__title .attachements__title-txt,
-.attachments__container table td,
-.add-article__row--verification p,
-.blog-article-preview__title p,
-.blog-article-preview__container p,
-.add-article__title strong,
-.upload-process>p,
-.uploading__process_precent,
-.section--error p,
-.js-article-tab__completed span,
-.blog--publish-view label,
-.is-error-infor,
-.popup--error .popup__content-mid dt,
-.popup--error .popup__content-mid dd, .fs-14, .button--fb, .box__title ul li a, .mission-item__name, .game-player-meta__title, .monthly-rank, .monthly-player-link, .box--player-of-month__pts{
+.button, .buttons, .buttons a, .box__title strong, .box--leaderboard table td, .box--leaderboard table .top3 .rank, .blog-preview strong, .news-preview strong, .news-details__button .print-btn, .news-details__content .posted, .news-details__content .content, .post-preview strong, .top-stories__title, .load-more, .feeds__content, .post-area strong, .game-preview a, .level-played a, .login table td, .login__register, .send-message table label, .add-friend table label, .add-friend table p, .text, .textarea, .jqTransformSelectWrapper div span, .jqTransformSelectWrapper ul a, .header-popup__head strong, .header-popup__foot a, .friend-request__content .username, .message__content .username, .profile-area .edit-profile, .profile-area__content .user-type, .profile-area__content .textarea-holder .edit-status, .news-block__title, .popup__title strong, .home-carousel .content .info a, .home-carousel .content .info ul, .home-carousel .carousel ul li strong, .player-of-the-month p, .player-of-the-month ul li a, .register-intro p, .register-intro .feature, .box--register .other-method, .box--register table td, .box--register .validate strong, .box--register .validate label, .box--news-category ul li a, .user-profile, .private-profile-subpanel, .profile-message, .recovery label, .auto-complete, .profile-area__content .textarea-holder, .faq-block strong a, .profile-message__breadcrumb, .msg-load-more, .message__reply-msg-bar textarea, .firend-request__info, .badge-request__info .friend-user__search .friend-user__search-input, .textarea-bio, .box--rules, .faq-details, .box__faq__related li, .box--search, .contact-us-block, .user-profile .user-profile__field, .faq-block-details .faq-block__title, .user-profile-description, .private-profile__content-edit input, .table-opt thead tr th div, .box--faq .load-more, .search-leaderboard__filter-tab .tab-button, .list-leaderboard strong, .leaderboard-pts, .achievements__my-badges .badge-info .badges-title, .popup__unregister-confirm .popup__content-mid, .popup__unregister-profile .popup__content-mid, .popup__remove-friend .popup__content-mid, .box--blog .box__title .breadcrumb-text, .blog-header .blog-search .search-text, .blog-details__filter > label, .blog-details__pagination > label, .blog-details__pagination .pagination-total > span, .blog-details__pagination .pagination-total label, .pagination-number a, .blog-detail__date, .blog-detail__article .blog-article__tag, .blog-article__meta > div, .blog-article__button .share-button, .blog-article__txt > p, .blog-article__txt .read-more, .link-print, .link-edit, .blog-article__date, .l-row--blog .blog-article__tag, .l-row--blog > p, .l-row--blog .blog-article__bottom_button .bottom_button__link, .box--blog-category .box__article li a, .box--blog-related .row__article .row__article-title, .box--recnet-comment .box__article li, .blog-result__section .blog-result__section-title, .blog-result__section .blog-result__post, .blog-result__article p, .blog-result__article .blog-result__view-details, .advanced-search__row label, .blog-posts__date, .blog-posts__title-group .blog-posts__tag, .table-wrapper table th, .table-wrapper table td a, .table-wrapper table td p, .table-wrapper table .table-td__articles, .table-wrapper table .table-td__comments, .table-wrapper table .table-td__last-poster p, .my-watches-nofound p, .box--blog-draft ul li a, .add-article__row label, .add-article__row .add-article__input, .add-article__row .add-article__CKEdit .add-article__textarea, .attachments__title .attachements__title-txt, .attachments__container table td, .add-article__row--verification p, .blog-article-preview__title p, .blog-article-preview__container p, .add-article__title strong, .upload-process > p, .uploading__process_precent, .section--error p, .js-article-tab__completed span, .blog--publish-view label, .is-error-infor, .popup--error .popup__content-mid dt, .popup--error .popup__content-mid dd, .fs-14, .button--fb, .box__title ul li a, .mission-item__name, .game-player-meta__title, .monthly-rank, .monthly-player-link, .box--player-of-month__pts{
 	font-size: 14px; 
 }
 .ui-datepicker-calendar td,
@@ -343,25 +277,31 @@ font-size: 18px;
 	background-image: url(../../i/minisite1/social-icon.png);
 	background-position: 0 0;
 }
-.buttons .comment, .blog-article__button .button--comments {
-	background-image: url(../../i/minisite1/comment-icon.png);
-	background-position: 0 0;
+
+.buttons .comment .ico, .blog-article__button .button--comments .ico {
+	background-position: 8px 2px;
 }
-.buttons .like, .blog-article__button .button--like {
-	background-image: url(../../i/minisite1/like-icon-alt.png);
-	background-position: 0 0;
+.buttons .comment:hover .ico, .blog-article__button .button--comments:hover .ico {
+	background-position: 8px -13px;
 }
-.buttons .tweet, .blog-article__button .button--twitter {
-	background-image: url(../../i/minisite1/social-links-icon-2.png);
-	background-position: 0 0;
+.buttons .like .ico, .blog-article__button .button--like .ico {
+	background-position: 9px -93px;
 }
-.buttons .social:hover,
-.buttons .comment:hover,
-.blog-article__button .button--comments:hover,
-.buttons .like:hover,
-.blog-article__button .button--like:hover,
-.buttons .tweet:hover,
-.blog-article__button .button--twitter:hover  {
+.buttons .like:hover .ico, .blog-article__button .button--like:hover .ico {
+	background-position: 9px -108px;
+	cursor: pointer;
+}
+.buttons .tweet .ico, .blog-article__button .button--twitter  .ico{
+	background-position: 8px -60px;
+	height: 15px;
+	display: block;
+	margin-top: 7px;
+	line-height: 16px;
+}
+.buttons .tweet:hover .ico, .blog-article__button .button--twitter:hover .ico{
+	background-position: 8px -74px;
+}
+.buttons .social:hover{
 	background-position: 0 -30px;
 }
 .login table td .social,
@@ -482,7 +422,6 @@ font-size: 18px;
 		.box__title .breadcrumb:hover { text-decoration: underline; }
 			.breadcrumb-sub,
 			.box__title strong span{
-				background-image: url(../../i/minisite1/breadcrumb-arrow.png);
 				background-position:  12px 13px;
 				background-repeat: no-repeat;
 			}
@@ -1986,24 +1925,32 @@ div .box__faq__related li {
 				padding-left: 22px;
 			}
 			.news-comment .content .button-holder .reply {
-				background-image: url(../../i/minisite1/reply-icon.png);
-				background-position: 0 4px;
+				background-position: 0 -150px;
 				border-right: 1px solid #999999;
 				padding-right: 8px;
 				margin-right: 4px;
 				color: #ffffff;
-			}
+			
+				margin-top: 4px;
+				height: 12px;
+				padding-top: 0;
+				vertical-align: top;
+}
 			.news-comment .content .button-holder .reply:hover{
-				background-position: 0 -26px;
+				background-position: 0 -165px;
 				color: #279af2;
 			}
 			.news-comment .content .button-holder .like {
-				background-image: url(../../i/minisite1/like-icon-small.png);
-				background-position: 0 1px;
+				background-position: 1px -177px;
 				color: #ffffff;
-			}
+			
+				margin-top: 1px;  
+				height: 14px;  padding-top: 0;
+				vertical-align: top;
+				line-height: 18px;
+}
 			.news-comment .content .button-holder .like:hover {
-				background-position: 0 -29px;
+				background-position: 1px -196px;
 				color: #279af2;
 			}
 /* login and recovery */
@@ -2172,12 +2119,12 @@ div .box__faq__related li {
 	display: block;
 }
 .jqTransformCheckbox {
-	background: url(../../i/checkbox.png) no-repeat left top;
 	height: 20px;
 	width: 20px;
 	display: block;
+	background-position: 0 -877px;
 }
-.jqTransformChecked { background-position: left -20px; }
+.jqTransformChecked { background-position: 0 -897px; }
 .cb-label {
 	display: inline-block;
 	padding: 3px 0 0 7px;
@@ -2207,9 +2154,9 @@ div .box__faq__related li {
 	right: 0;
 	top: 0;
 	display: block;
-	background: url(../../i/select-right.png) left top no-repeat;
 	width: 25px;
 	height: 29px;
+	background-position: 0 -762px;
 }
 .jqTransformSelectWrapper ul {
 	position: absolute;
@@ -2573,14 +2520,15 @@ div .box__faq__related li {
 					right: 15px;
 					top: 13px;
 					display: block;
-					background: url(../../i/close-btn.png) 0 -15px no-repeat;
 					width: 16px;
 					height: 15px;
 					direction: ltr;
 					text-indent: -9999px;
 					overflow: hidden;
-				}
-				.popup__title .close-btn:hover { background-position: 0 0; }
+				
+					background-position: 1px -827px;
+}
+				.popup__title .close-btn:hover { background-position: 1px -812px; }
 	.popup__content-left {
 		padding-left: 3px;
 	}
@@ -2979,7 +2927,10 @@ div .box__faq__related li {
 }
 .box--news-category .box__title { padding-left: 9px; height: 41px; }
 .box--blog-archives .box__title strong, .box--news-category .box__title strong, .box--blog-draft .box__title strong{
-	background: url(../../i/minisite1/box-icon-news-catetory.png) 0 0 no-repeat;
+	background-position: 0 -662px;
+	margin-top: 9px;
+	height: 24px;
+	line-height: 22px;
 }
 .box--news-category .box__title strong {
 	padding-left: 36px;
@@ -2999,8 +2950,11 @@ div .box__faq__related li {
 /* news comments */
 .box--comments .box__title { padding-left: 9px; background-color: #1b1b1b;  }
 .box--comments .box__title strong {
-	background: url(../../i/minisite1/box-icon-comment.png) 0 0 no-repeat;
 	padding-left: 36px;
+	background-position: 0 -686px;
+	margin-top: 10px;
+	height: 24px;
+	line-height: 20px;
 }
 	.box--comments .post-area { padding: 10px 12px 6px 13px; }
 	.box--comments .post-area .textarea { width: 575px; }
@@ -5496,11 +5450,7 @@ div .help-filter {
 
 /* BLOG */
 /* Remove */
-.button--remove-selected,
-.table__remove-link,
-.box--blog-draft ul li a.blog-draft__remove,
-.attachments__container table .button--delete,
-.button--delete{
+.button--remove-selected,  .button--delete, .attachments__container table .button--delete{
 	background-image:url(../../i/minisite1/icon-remove.png);
 	}
 
@@ -5509,20 +5459,15 @@ div .help-filter {
 .l-row--blog .blog-article__tag dt,
 .blog-posts__title-group  .blog-posts__tag dt,
 .add-article__row .add-article__infor{
-	background-image:url(../../i/minisite1/icon-tag.png);
 	}
 	
 /* Add */
 .button--add-blog,
 .button--add-new-article{
-	background-image:url(../../i/minisite1/icon-add-article.png);
 	}
 	
 /* Blog Icon */
-.box--blog .box__title>strong,
-.box-blog-article .box__title strong,
-.box-blog-filter .box__title strong,
-.box--blog-new .box__title strong{
+.box--blog .box__title>strong,  .box-blog-filter .box__title strong, .box--blog-new .box__title strong{
 	background-image:url(../../i/minisite1/box-icon-blog.png);
 	}
 	
@@ -5532,13 +5477,11 @@ div .help-filter {
 .blog-detail__date,
 .blog-article__date,
 .blog-posts__date{
-	background-image:url(../../i/minisite1/icon-date.png);
+	background-position: 0 -301px;
 	}
 	
 /* Print */
-.tournaments-details__button .print-btn,
-.news-details__button .print-btn,
-.link-print{
+.tournaments-details__button .print-btn, .news-details__button .print-btn{
 	background-image:url(../../i/minisite1/print-icon.png);
 	}
 	
@@ -5546,8 +5489,25 @@ div .help-filter {
 .button--edit,
 .table__edit-link{
 	background-image:url(../../i/minisite1/edit-button-icon.png);
-	}
-	
+	position: relative;
+}
+.button--edit .ico,
+.table__edit-link .ico{
+	position: absolute;
+	left: 20px;
+	top: 9px;
+	height: 14px;
+	width: 14px;
+	background-position: 0 -32px;
+}	
+.table__edit-link .ico{
+	left: 8px;
+}
+.button--edit:hover .ico,
+.table__edit-link:hover .ico{
+	cursor: pointer;
+	background-position: 0 -46px;
+}
 /* Archives */
 	
 .box--blog{
@@ -5584,9 +5544,22 @@ div .help-filter {
 			}
 		.box--blog .box__title .button--remove-selected{
 			margin:6px 0 0 0;
-			padding:0 14px 0 32px;
+			padding: 0 14px 0 0;
 			}
-	
+		.box--blog .box__title .button--remove-selected .ico{
+			padding-left: 32px;
+		
+			line-height: 20px;
+			background-position: 14px -125px;
+			margin-top: 8px;
+			display: block;
+			height: 12px;
+			line-height: 14px;
+}
+		.box--blog .box__title .button--remove-selected:hover .ico{
+			cursor: pointer;
+			background-position: 14px -137px;
+		}
 	/* Blog header */
 	.blog-header{
 		min-height:29px;
@@ -5658,13 +5631,12 @@ div .help-filter {
 			.blog-header .blog-search .blog-search__icon, .search-forum .icon-forum-search{
 				width:28px;
 				height:29px;
-				background-image:url(../../i/minisite1/search-blog-icon.png);
 				background-repeat:no-repeat;
-				background-position:0 0;
+				background-position: 0 -534px;
 				}
 				
 			.blog-header .blog-search .blog-search__icon:hover, .search-forum .icon-forum-search:hover{
-				background-position:0 -29px;
+				background-position: 0 -563px;
 				}
 				
 			.blog-header .button--advanced{
@@ -5684,7 +5656,21 @@ div .help-filter {
 			height:29px;
 			margin:0 0 0 5px;
 			line-height:29px;
-			}
+			position: relative;
+}
+		.blog-header .blog-button .button .ico{
+    background-position: 0 -285px;
+			
+		
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    height: 7px;
+    width: 10px;
+}
+		.blog-header .blog-button .button:hover .ico{
+			background-position: 0 -293px;
+		}
 			
 		 .button--display-pipeline,
 		 .button--my-watch,
@@ -5716,7 +5702,7 @@ div .help-filter {
 		.button--add-new-article{
 			padding:0 7px 0 13px;
 			background-repeat:no-repeat;
-			background-position:5px 0;
+			background-position: 5px -275px;
 			}
 		.button--add-new-article:hover{
 			background-position:5px -30px;;
@@ -5791,10 +5777,22 @@ div .help-filter {
 			background-repeat:no-repeat;
 			background-position:6px 9px;
 			}
-			
+		.is-button--watched .ico{
+    display: block;
+		
+		
+    padding: 0 10px 0 25px;
+    background-position: 6px -843px;
+    margin-top: 9px;
+    height: 14px;
+    line-height: 12px;
+}
+		.is-button--watched:hover  .ico{
+		
+		}
 		.blog-details__filter .is-button--watched{
 			margin:6px 9px 0 0;
-			padding:0 10px 0 25px;
+			padding: 0;
 			}
 			
 		.blog-details__filter .is-hidden{
@@ -5916,16 +5914,14 @@ div .help-filter {
 				
 			.pagination-number .pagination-number__prev{
 				background-color:transparent;
-				background-image:url(../../i/minisite1/button-pagination-prev.png);
 				background-repeat:no-repeat;
-				background-position:0 -29px;
+				background-position: 0 -389px;
 				}
 				
 			.pagination-number .pagination-number__next{
 				background-color:transparent;
-				background-image:url(../../i/minisite1/button-pagination-next.png);
 				background-repeat:no-repeat;
-				background-position:0 -29px;
+				background-position: 0 -476px;
 				}
 				
 			.pagination-number a:hover{
@@ -5936,14 +5932,14 @@ div .help-filter {
 			.pagination-number .pagination-number__prev:hover,
 			.pagination-number .pagination-number__next:hover{
 				background-color:transparent;
-				background-position:0 -58px;
+				background-position: 0 -505px;
 				}
 				
 			.pagination-number .disable,
 			.pagination-number .disable:hover{
 				cursor:default;
 				background-color:transparent;
-				background-position:0 0;
+				background-position: 0 -360px;
 				}
 			
 	/* Wrapper */
@@ -5973,7 +5969,7 @@ div .help-filter {
 				color:#323232;
 				position:absolute;
 				background-repeat:no-repeat;
-				background-position:0 0;
+				background-position: 0 -301px;
 				}
 				
 				.blog-detail__date span{
@@ -6000,8 +5996,11 @@ div .help-filter {
 					.blog-detail__article  .blog-article__tag dt{
 						padding:0 6px 0 15px;
 						background-repeat:no-repeat;
-						background-position:0 center;
-						}
+						background-position: 0 -256px;
+						margin-top: 3px;
+						vertical-align: top;  line-height: 14px;
+						height: 14px;
+}
 						
 				/* Details */
 				.blog-article__details{
@@ -6069,9 +6068,9 @@ div .help-filter {
 									background-repeat:no-repeat;
 									}
 									
-								.blog-article__button .share-button{
+								.blog-article__button .share-button .ico{
 									padding:0 10px 0 32px;
-									}
+}
 									
 									
 								.blog-article__button .share-button:hover{
@@ -6174,14 +6173,18 @@ div .help-filter {
 			.box-blog-article .box__title strong,
 			.box-blog-filter .box__title strong{
 				background-repeat:no-repeat;
-				background-position:0 0;
-				}
+				background-position: 0 -711px;
+				margin-top: 5px;
+				height: 32px;
+				line-height: 30px;
+}
 				
 			.box-blog-article .box__title span,
 			.box-blog-filter .box__title span{
 				padding:0 0 0 28px;
-				background-position:6px 14px;
-				}
+				background-position: 6px -593px;
+				margin-top: 9px;  height: 14px;  line-height: 12px;
+}
 			
 			.box-blog-article .box__title .breadcrumb,
 			.box-blog-filter .box__title .breadcrumb{
@@ -6207,8 +6210,11 @@ div .help-filter {
 			.box__title .breadcrumb-sub{
 				padding:0 0 0 28px;
 				background-repeat:no-repeat;
-				background-position:6px 14px;
-				}
+				background-position: 6px -593px;
+				margin-top: 9px;
+				height: 14px;
+				line-height: 12px;
+}
 				
 			.box__title .breadcrumb-sub{
 				display:inline-block;
@@ -6236,25 +6242,26 @@ div .help-filter {
 			.link-print{
 				padding:4px 0 4px 31px;
 				font-weight:bold;
-				line-height:16px;
+				line-height: 14px;
 				background-repeat:no-repeat;
-				background-position:0 0;
-				}
+				background-position: 0 -210px;
+				height: 14px;
+}
 			.link-print:hover{
-				background-position:0 -50px;
+				background-position: 0 -232px;
 				}
 			.box__header .link-print{
-				margin:8px 18px 0 21px;
+				margin: 9px 18px 0 21px;
 				}
 				
 			.link-edit{
 				padding:0 0 0 17px;
 				font-weight:bold;
 				line-height:16px;
-				background-image:url(../../i/edit-icon.png);
 				background-repeat:no-repeat;
-				background-position:0 0;
-				}
+				background-position: 0 -854px;
+				height: 15px;
+}
 				
 			.box__header .link-edit{
 				margin:12px 0 0 0;
@@ -6274,7 +6281,7 @@ div .help-filter {
 				
 				/* Button */
 				.l-row--blog .blog-article__button{
-					width:88px;
+					width: 88px;
 					padding:0;
 					position:absolute;
 					top:0;
@@ -6284,19 +6291,18 @@ div .help-filter {
 					.button--edit{
 						background-repeat:no-repeat;
 						background-position:20px 0;
-						}
+}
 					.button--edit:hover{
 						background-position:20px -30px;
 						}
 					
 					.l-row--blog .blog-article__button .is-button--watched{
-						width:63px;
+						width: 88px;
 						margin:0 0 5px 0;
 						text-align:left;
 						}
 						
 					.l-row--blog .blog-article__button .is-button--watched{
-						padding:0 0 0 25px;
 						}
 						
 					.l-row--blog .blog-article__button .button--watches{
@@ -6332,7 +6338,7 @@ div .help-filter {
 					color:#ffffff;
 					position:absolute;
 					background-repeat:no-repeat;
-					background-position:0 0;
+					background-position: 0 -301px;
 					}
 					
 				.l-row--blog .blog-article__date{
@@ -6360,8 +6366,10 @@ div .help-filter {
 					.l-row--blog .blog-article__tag dt{
 						padding:0 6px 0 15px;
 						background-repeat:no-repeat;
-						background-position:0 center;
-						}
+						background-position: 0 -253px;
+						height: 17px;
+						overflow: visible;
+}
 						
 				.l-row--blog .blog-article__meta{
 					padding:8px 0 16px 0;
@@ -6450,10 +6458,12 @@ div .help-filter {
 			
 			.box--blog-category .box__title strong{
 				padding:0 0 0 38px;
-				background-image:url(../../i/minisite1/box-icon-blog-category.png);
 				background-repeat:no-repeat;
-				background-position: 0 0;
-				}
+				background-position: 0 -745px;
+				height: 17px;
+				line-height: 16px;
+				margin-top: 12px;
+}
 				
 			.box--blog-category .box__article{
 				margin:0;
@@ -6494,11 +6504,13 @@ div .help-filter {
 			padding-top: 36px;
 			}
 			.box--blog-related .box__title strong{
-				background-image:url(../../i/minisite1/box-icon-related-blog.png);
 				background-repeat:no-repeat;
-				background-position: 0 0;
+				background-position: 0 -607px;
 				padding:0 0 0 38px;
-				}
+				height: 28px;
+				line-height: 26px;
+				margin-top: 7px;
+}
 				
 			/* Article */
 			.box--blog-related .box__article{
@@ -6567,10 +6579,12 @@ div .help-filter {
 
 			.box--recnet-comment .box__title strong{
 				padding:0 0 0 38px;
-				background-image:url(../../i/minisite1/box-icon-recent-comment.png);
 				background-repeat:no-repeat;
-				background-position:0 0;
-				}
+				background-position: 0 -635px;
+				margin-top: 7px;
+				height: 26px;
+				line-height: 26px;
+}
 				
 			/* Article */
 			.box--recnet-comment .box__article li{
@@ -6734,7 +6748,7 @@ div .help-filter {
 				color:#ffffff;
 				position:absolute;
 				background-repeat:no-repeat;
-				background-position:0 0;
+				background-position: 0 -301px;
 				}
 				
 				.blog-posts__date span{
@@ -6761,8 +6775,10 @@ div .help-filter {
 					.blog-posts__title-group  .blog-posts__tag dt{
 						padding:0 6px 0 15px;
 						background-repeat:no-repeat;
-						background-position:0 center;
-						}
+						background-position: 0 -256px;
+						margin-top: 3px;  vertical-align: top;  line-height: 14px;  height: 14px;
+						color: #fffffe;
+}
 	
 	/* Article List */
 	.my-watcher .box{
@@ -6902,7 +6918,16 @@ div .help-filter {
 					background-position: 9px 0;
 					background-color:#cdc9c7;
 					}
-					
+					.table__remove-link .ico{
+							background-position: 0 -126px;  
+							height: 11px;  
+							margin: 9px 0 0 10px;
+							display: block;
+						}
+					.table__remove-link:hover .ico{
+						cursor: pointer;
+						background-position: 0 -137px;  
+					}
 				.table__remove-link:hover{
 					text-decoration:none;
 					background-color:#0099ff;
@@ -6939,12 +6964,13 @@ div .help-filter {
 				.table-wrapper table tr:hover td .table__view-link{
 					display:inline-block;
 					line-height:29px;
-					}
+}
 					
 				.table-wrapper table td .table__edit-link,
 				.table-wrapper table td .table__view-link{
 					font-weight:normal;
-					}
+					position: relative;
+}
 					
 	/* My Watches NoFound */
 	.my-watches-nofound{
@@ -6986,6 +7012,11 @@ div .help-filter {
 				margin:0 0 2px 0;
 				line-height:15px;
 				}
+			.box--blog-draft ul li a .ico{
+				display: block;
+			
+				height: 14px;
+}
 				
 			.box--blog-draft ul li p{
 				color:#ffffff;
@@ -6998,8 +7029,17 @@ div .help-filter {
 				margin:0;
 				background-color:#cdc9c7;
 				background-repeat:no-repeat;
-				background-position:10px 0;
+				background-position: 0 -127px;
 				}
+			.box--blog-draft ul li a.blog-draft__remove .ico{
+				background-position: 0 -126px;
+				height: 11px;
+				margin: 9px 0 0 10px;
+			}
+			.box--blog-draft ul li a.blog-draft__remove:hover .ico{
+				cursor: pointer;
+				background-position: 0 -138px;
+			}
 				
 			.box--blog-draft ul li a.blog-draft__remove:hover{
 				background-color:#0099ff;
@@ -7044,10 +7084,14 @@ div .help-filter {
 				padding:0 0 0 18px;
 				display:inline-block;
 				color:#b2b2b2;
-				line-height:32px;
 				background-repeat:no-repeat;
-				background-position:0 center;
-				}
+				background-position: 0 -256px;
+				height: 14px;
+				margin-top: 10px;
+				vertical-align: top;
+				line-height: 14px;
+				margin-bottom: 9px;
+}
 				
 			.add-article__row .add-article__require{
 				color:#ff0000;
@@ -7178,7 +7222,7 @@ div .help-filter {
 					.attachments__container table .button--delete{
 						width:55px;
 						background-repeat:no-repeat;
-						background-position:12px 0;
+						background-position: 12px 0;
 						}
 					.attachments__container table .button--delete:hover{
 						background-position:12px -30px;
@@ -7197,23 +7241,25 @@ div .help-filter {
 						padding:0 0 0 18px;
 						font-weight:bold;
 						color:#ff0000;
-						background-image:url(../../i/icon-error-upload.png);
 						background-repeat:no-repeat;
-						background-position:0 0;
-						}
+						background-position: 2px -799px;
+						height: 13px;
+						display: block;
+						line-height: 14px;
+}
 			
-			.forum-more-attachment-button-holder a, .attchments__more-files{
-				background-image:url(../../i/minisite1/icon-attach-file.png);
+			{
+    background-position: 0 0;
 			}
 			.attchments__more-files{
-				display:inline-block;
-				margin:6px 0 7px 1px;
+				margin: 6px 0 7px 1px;
 				padding:0 0 0 20px;
 				font-weight:bold;
 				line-height:18px;
 				background-repeat:no-repeat;
-				background-position:0 0;
-				}
+				background-position: 0 -270px;
+				display: block;
+}
 				
 			.add-article__row--permission .select-wrapper{
 				width:216px;
@@ -7271,10 +7317,20 @@ div .help-filter {
 			width:55px;
 			text-align:left;
 			background-repeat:no-repeat;
-			background-position:9px 0;
-			}
-		.button--delete:hover{
-			background-position:9px -30px;
+			background-position: 9px 0;
+			position: relative;
+}
+			.button--delete .ico{
+				background-position: 0 -126px;
+				height: 11px;
+			
+				width: 16px;
+				position: absolute;
+				left: 9px;
+				top: 9px;
+}
+		.button--delete:hover .ico{
+			background-position: 0 -137px;
 			}
 		.button--delete{
 			padding:0 0 0 24px;
@@ -7385,15 +7441,16 @@ div .help-filter {
 	padding:0 10px;
 	line-height:41px;
 	background-color:#ffdfdf;
-	}
+	overflow: hidden;
+}
 	
 	.section--error p{
 		padding:0 0 0 43px;
 		color:#333333;
 		background-image:url(../../i/icon-error.png);
 		background-repeat:no-repeat;
-		background-position:0 center;
-		}
+		background-position: 0 center;
+}
 		
 		.section--error p strong{
 			padding:0 10px 0 0;
@@ -7476,13 +7533,12 @@ div .help-filter {
 		
 		.js-article-tab__completed span>a{
 			width:7px;
-			height:19px;
+			height: 8px;
 			display:inline-block;
 			margin:0 0 0 8px;
 			vertical-align:middle;
-			background-image:url(../../i/icon-remove-tag.png);
 			background-repeat:no-repeat;
-			background-position:0 5px;
+			background-position: 0 -792px;
 			}
 			
 .blog--publish-view label{
@@ -7543,11 +7599,11 @@ div .help-filter {
 	.popup--error .popup__title strong{
 		display:inline-block;
 		padding:0 0 0 50px;
-		line-height:40px;
-		background-image:url(../../i/icon-error-popup.png);
+		line-height: 28px;
 		background-repeat:no-repeat;
-		background-position:0 center;
-		}
+		background-position: 0 -917px;
+		margin-top: 6px;
+}
 		
 	.popup--error .popup__content-mid{
 		padding:17px 20px 15px 20px
