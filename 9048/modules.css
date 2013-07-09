@@ -95,6 +95,13 @@
 	height: 20px;
 	line-height: 20px;
 }
+
+/* news sprite */
+.news-comment .content .button-holder .like, .news-comment .content .button-holder .reply, .tournaments-details__button .print-btn, .news-details__button .print-btn, .link-print, .box--comments .box__title strong, .buttons .social .ico, .breadcrumb-sub, .box__title strong span, .buttons .tweet .ico, .buttons .comment .ico, .buttons .like .ico, .blog-article__button .button--like .ico, .box--blog-archives .box__title strong, .box--news-category .box__title strong, .box--blog-draft .box__title strong, .box--news .box__title strong{
+	background-image: url(../../i/minisite1/news-sprite.png);
+	background-repeat: no-repeat;
+}
+
 .table-opt thead tr .table-align-left div {
 	text-align: left;
 	padding-left: 14px;
@@ -331,8 +338,13 @@ font-size: 18px;
 	font-weight: bold;
 	text-align: right;
 	text-decoration: none;
+	vertical-align: top;
 }
-.buttons a { padding: 0 12px 0 31px; }
+	.buttons a .ico{
+		display: block;
+		cursor: pointer;
+	}
+.buttons a .ico{ padding: 0 12px 0 31px; }
 .buttons a:hover { 
 	background-color: #279af2;
 	color: #ffffff;
@@ -340,29 +352,62 @@ font-size: 18px;
 	box-shadow: 0 0 4px 2px rgba(0,110,200, 0.75); 
 }
 .buttons .social {
-	background-image: url(../../i/minisite1/social-icon.png);
 	background-position: 0 0;
 }
 .buttons .comment, .blog-article__button .button--comments {
-	background-image: url(../../i/minisite1/comment-icon.png);
 	background-position: 0 0;
 }
 .buttons .like, .blog-article__button .button--like {
-	background-image: url(../../i/minisite1/like-icon-alt.png);
-	background-position: 0 0;
+	background-position: 0 -191px;
 }
-.buttons .tweet, .blog-article__button .button--twitter {
-	background-image: url(../../i/minisite1/social-links-icon-2.png);
-	background-position: 0 0;
+.buttons .like .ico, .blog-article__button .button--like  .ico{
+	background-position: 8px -197px;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 6px;
+	padding-top: 2px;
 }
-.buttons .social:hover,
-.buttons .comment:hover,
+.blog-article__button .button--twitter .ico{
+	background-position: 8px -213px;
+}
+.buttons .tweet .ico{
+	background-position: 8px -47px;
+	height: 13px;  
+	line-height: 14px;  
+	margin-top: 8px;  
+	padding-top: 0px;
+}
+.buttons .comment  .ico{
+	background-position: 8px -212px;
+	height: 13px;  
+	line-height: 14px;  
+	margin-top: 8px;  
+	padding-bottom: 2px;
+}
+.buttons .social  .ico{
+	background-position: 6px -76px;
+	height: 18px;  
+	line-height: 20px;  
+	margin-top: 5px;  
+	padding-bottom: 2px;
+}
+
 .blog-article__button .button--comments:hover,
-.buttons .like:hover,
 .blog-article__button .button--like:hover,
-.buttons .tweet:hover,
 .blog-article__button .button--twitter:hover  {
 	background-position: 0 -30px;
+}
+.buttons .like:hover .ico{
+	background-position: 8px -161px;
+}
+.buttons .tweet:hover .ico{
+	background-position: 8px -60px;
+}
+.buttons .comment:hover .ico{
+	background-position: 8px -227px;
+}
+.buttons .social:hover .ico{
+	background-position: 6px -96px;
 }
 .login table td .social,
 .box--register .other-method .social {
@@ -482,8 +527,7 @@ font-size: 18px;
 		.box__title .breadcrumb:hover { text-decoration: underline; }
 			.breadcrumb-sub,
 			.box__title strong span{
-				background-image: url(../../i/minisite1/breadcrumb-arrow.png);
-				background-position:  12px 13px;
+				background-position: 12px -243px;
 				background-repeat: no-repeat;
 			}
 			.box__title strong span {
@@ -491,7 +535,11 @@ font-size: 18px;
 				padding-left: 34px;
 				color: #ffffff;
 				text-transform: uppercase;
-			}
+			
+				height: 14px;
+				line-height: 16px;
+				overflow: visible;
+}
 		.box__title-navi ul {
 			margin: 0;
 			position: absolute;
@@ -646,9 +694,13 @@ font-size: 18px;
 			height: 46px;
 		}
 		.box--news .box__title strong {
-			background: url(../../i/minisite1/box-icon-news-page.png) 0 0 no-repeat;
 			padding-left: 46px;
-		}
+		
+			background-position: 3px -257px;
+			margin-top: 8px;
+			height: 26px;
+			line-height: 24px;
+}
 		.box--news__updates .box__title strong {
 			background: url(../../i/minisite1/box-icon-news.png) 0 0 no-repeat;
 			padding-left: 28px;
@@ -678,13 +730,16 @@ font-size: 18px;
 	.news-details__button .print-btn {
 		display: block;
 		background-repeat:no-repeat;
-		background-position:0 0;
-		margin-top: 4px;
+		background-position: 0 -116px;
+		margin-top: 5px;
 		padding: 4px 0 4px 26px;
 		font: bold 14px Arial, Helvetica, sans-serif;
-	}
+	
+		height: 12px;
+		line-height: 14px;
+}
 	.tournaments-details__button .print-btn:hover, 
-	.news-details__button .print-btn:hover { text-decoration: underline; background-position: 0 -50px }
+	.news-details__button .print-btn:hover { text-decoration: underline; background-position: 0 -137px;}
 .tournaments-details__content{
 	background-color: #292830;
 }
@@ -1986,24 +2041,22 @@ div .box__faq__related li {
 				padding-left: 22px;
 			}
 			.news-comment .content .button-holder .reply {
-				background-image: url(../../i/minisite1/reply-icon.png);
-				background-position: 0 4px;
+				background-position: 0 -283px;
 				border-right: 1px solid #999999;
 				padding-right: 8px;
 				margin-right: 4px;
 				color: #ffffff;
 			}
 			.news-comment .content .button-holder .reply:hover{
-				background-position: 0 -26px;
+				background-position: 0 -298px;
 				color: #279af2;
 			}
 			.news-comment .content .button-holder .like {
-				background-image: url(../../i/minisite1/like-icon-small.png);
-				background-position: 0 1px;
+				background-position: 0 -160px;
 				color: #ffffff;
 			}
 			.news-comment .content .button-holder .like:hover {
-				background-position: 0 -29px;
+				background-position: 0 -179px;
 				color: #279af2;
 			}
 /* login and recovery */
@@ -2979,7 +3032,10 @@ div .box__faq__related li {
 }
 .box--news-category .box__title { padding-left: 9px; height: 41px; }
 .box--blog-archives .box__title strong, .box--news-category .box__title strong, .box--blog-draft .box__title strong{
-	background: url(../../i/minisite1/box-icon-news-catetory.png) 0 0 no-repeat;
+	background-position: 0 0;
+	margin-top: 9px;
+	height: 22px;
+	line-height: 22px;
 }
 .box--news-category .box__title strong {
 	padding-left: 36px;
@@ -2999,8 +3055,8 @@ div .box__faq__related li {
 /* news comments */
 .box--comments .box__title { padding-left: 9px; background-color: #1b1b1b;  }
 .box--comments .box__title strong {
-	background: url(../../i/minisite1/box-icon-comment.png) 0 0 no-repeat;
 	padding-left: 36px;
+	background-position: 0px -21px;  margin-top: 8px;  height: 26px;  line-height: 24px;
 }
 	.box--comments .post-area { padding: 10px 12px 6px 13px; }
 	.box--comments .post-area .textarea { width: 575px; }
@@ -5539,7 +5595,6 @@ div .help-filter {
 .tournaments-details__button .print-btn,
 .news-details__button .print-btn,
 .link-print{
-	background-image:url(../../i/minisite1/print-icon.png);
 	}
 	
 /* Edit */
